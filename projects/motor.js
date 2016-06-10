@@ -1,5 +1,5 @@
 import five from 'johnny-five';
-import setupLeap from '../tools/setupLeap';
+let setupLeap = require('../tools/setupLeap');
 
 let board;
 let motor;
@@ -9,7 +9,7 @@ board = new five.Board();
 board.on('ready', function() {
   setUpMotor(controlMotor);
   setupLeap();
-    // event handlers on start and stop
+  // event handlers on start and stop
   motor.on('start', (err, timestamp)=>{
     if (err) {
       throw err;

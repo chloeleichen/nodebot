@@ -1,4 +1,5 @@
-import leapMotion from 'leapjs';
+let leapMotion = require('leapjs');
+
 let initialFrame = null;
 function setupLeap(callback) {
     let leapController = new leapMotion.Controller({enableGestures: true});

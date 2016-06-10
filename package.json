@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^2.8.0",
     "babel-eslint": "^6.0.2",
     "leapjs": "^0.6.4",
-    "johnny-five": "*",
-    "eslint": "^2.8.0"
+    "johnny-five": "*"
   }
 }

@@ -1,5 +1,5 @@
-import five from 'johnny-five';
-import setupLeap from '../tools/setupLeap';
+let five = require('johnny-five');
+let setupLeap = require('../tools/setupLeap');
 
 let board;
 let led;
